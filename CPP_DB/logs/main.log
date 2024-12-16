@@ -1,0 +1,23 @@
+11:15:31 | Successfully opened logs files
+11:15:31 | Successfully initialized streams for logs
+11:15:31 | parse_header called:
+11:15:31 |     Found comment
+11:15:31 |     Found comment
+11:15:31 |     Switched to reading size of types
+11:15:31 |     Adopted new type int, size 8
+11:15:31 |     Adopted new type short_str, size 20
+11:15:31 |     Adopted new type long_str, size 128
+11:15:31 |     Adopted new type bool, size 1
+11:15:31 |     Adopted new type path, size 32
+11:15:31 |     Found comment
+11:15:31 |     Switched to reading tables
+11:15:31 |     Table constructor called with name students.db
+11:15:31 |     Table constructor called with name groups.db
+11:15:31 |     Table constructor called with name specialities.db
+11:15:31 |     Found comment
+11:15:31 |     Switched to reading key attributes
+11:15:31 |     Adopted key attributes for table students: student_id, group_id
+11:15:31 |     Adopted key attributes for table groups: group_id, id_speciality
+11:15:31 |     Adopted key attributes for table specialities: id_speciality, %&
+11:15:31 | Successfully parsed header
+11:15:31 | Successfully reached main loop

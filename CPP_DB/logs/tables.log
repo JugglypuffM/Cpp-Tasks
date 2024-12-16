@@ -1,0 +1,34 @@
+11:15:31 | Table constructor called with name students.db
+11:15:31 |     Found 6 columns
+11:15:31 |     Adopted attribute student_id with type int
+11:15:31 |     Adopted attribute surname with type short_str
+11:15:31 |     Adopted attribute name with type short_str
+11:15:31 |     Adopted attribute patronymic with type short_str
+11:15:31 |     Adopted attribute date_birth with type short_str
+11:15:31 |     Adopted attribute group_id with type int
+11:15:31 |     Size of entry: 102
+11:15:31 |     Started initializing hash tables
+11:15:31 |     Successfully initialized hash tables, found 31 entries
+11:15:31 | Completed initialization of table with name students.db
+11:15:31 | Table constructor called with name groups.db
+11:15:31 |     Found 5 columns
+11:15:31 |     Adopted attribute group_id with type int
+11:15:31 |     Adopted attribute group_name with type short_str
+11:15:31 |     Adopted attribute course with type int
+11:15:31 |     Adopted attribute men with type int
+11:15:31 |     Adopted attribute id_speciality with type int
+11:15:31 |     Size of entry: 57
+11:15:31 |     Started initializing hash tables
+11:15:31 |     Successfully initialized hash tables, found 6 entries
+11:15:31 | Completed initialization of table with name groups.db
+11:15:31 | Table constructor called with name specialities.db
+11:15:31 |     Found 5 columns
+11:15:31 |     Adopted attribute id_speciality with type int
+11:15:31 |     Adopted attribute institute with type long_str
+11:15:31 |     Adopted attribute departament with type long_str
+11:15:31 |     Adopted attribute direction with type long_str
+11:15:31 |     Adopted attribute exam_list with type path
+11:15:31 |     Size of entry: 429
+11:15:31 |     Started initializing hash tables
+11:15:31 |     Successfully initialized hash tables, found 2 entries
+11:15:31 | Completed initialization of table with name specialities.db

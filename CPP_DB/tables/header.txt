@@ -1,0 +1,24 @@
+// Блоки SIZE OF TYPES и TABLES могут идти в произвольном порядке
+// SIZE OF TYPES - блок, устанавливающий для типа данных размер в байтах
+SIZE OF TYPES
+int:8
+short_str:20
+long_str:128
+bool:1
+path:32
+// TABLES - блок, задающий путь до таблицы, названия её полей и типы этих полей
+TABLES
+students.db
+student_id;surname;name;patronymic;date_birth;group_id;
+int;short_str;short_str;short_str;short_str;int;
+groups.db
+group_id;group_name;course;men;id_speciality;
+int;short_str;int;int;int;
+specialities.db
+id_speciality;institute;departament;direction;exam_list;
+int;long_str;long_str;long_str;path;
+// KEY ATTRIBUTES - блок, который обязан идти после TABLES. Задаёт ключевые столбцы
+KEY ATTRIBUTES
+students:student_id;group_id
+groups:group_id;id_speciality
+specialities:id_speciality
